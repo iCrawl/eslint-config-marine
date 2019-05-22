@@ -34,7 +34,7 @@ module.exports = {
 		'@typescript-eslint/no-explicit-any': 0,
 		'@typescript-eslint/explicit-function-return-type': ['warn', { allowExpressions: true }],
 		'semi': 0,
-		"@typescript-eslint/semi": 'error',
+		'@typescript-eslint/semi': 'error',
 		'promise/catch-or-return': 'error',
 		'promise/no-return-wrap': 'error',
 		'promise/param-names': 'error',
