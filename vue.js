@@ -7,6 +7,7 @@ module.exports = {
 		'aqua/vue'
 	],
 	'parserOptions': {
-		parser: '@typescript-eslint/parser'
+		parser: '@typescript-eslint/parser',
+		extraFileExtensions: ['.vue']
 	}
 };

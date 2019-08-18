@@ -8,7 +8,7 @@
 	"scripts": {
 		"prebuild": "yarn lint",
 		"build": "gulp",
-		"lint": "tslint -p tsconfig.json"
+		"lint": "eslint ."
 	},
 	"repository": {
 		"type": "git",
@@ -30,19 +30,19 @@
 	],
 	"homepage": "https://github.com/iCrawl/eslint-config-marine#readme",
 	"dependencies": {
-		"eslint-config-aqua": "^6.0.1",
+		"eslint-config-aqua": "^6.0.2",
 		"eslint-plugin-promise": "^4.2.1"
 	},
 	"devDependencies": {
 		"@typescript-eslint/eslint-plugin": "^2.0.0",
 		"@typescript-eslint/parser": "^2.0.0",
-		"eslint": "^6.0.1",
+		"eslint": "^6.1.0",
 		"eslint-plugin-vue": "^5.2.3",
-		"typescript": "^3.5.2"
+		"typescript": "^3.5.3"
 	},
 	"peerDependencies": {
-		"@typescript-eslint/eslint-plugin": "^1.11.0",
-		"@typescript-eslint/parser": "^1.11.0",
+		"@typescript-eslint/eslint-plugin": "^2.0.0",
+		"@typescript-eslint/parser": "^2.0.0",
 		"eslint-plugin-vue": "^5.2.3"
 	},
 	"eslintConfig": {

@@ -23,7 +23,9 @@
 		"checkJs": true
 	},
 	"include": [
-		"src",
+		"src/**/*.ts",
+		"src/**/*.js",
+		"src/**/*.vue",
 		"**/*.ts",
 		"**/*.js",
 		"**/*.vue"
