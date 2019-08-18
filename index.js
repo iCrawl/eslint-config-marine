@@ -5,7 +5,8 @@ module.exports = {
 		'plugin:promise/recommended'
 	],
 	'parserOptions': {
-		project: './tsconfig.json'
+		project: './tsconfig.json',
+		extraFileExtensions: ['.vue']
 	},
 	'rules': {
 		'@typescript-eslint/adjacent-overload-signatures': 'error',
