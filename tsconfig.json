@@ -18,6 +18,18 @@
 		"emitDecoratorMetadata": true,
 		"alwaysStrict": true,
 		"allowSyntheticDefaultImports": true,
-		"pretty": true
-	}
+		"pretty": true,
+		"allowJs": true,
+		"checkJs": true
+	},
+	"include": [
+		"src",
+		"**/*.ts",
+		"**/*.js",
+		"**/*.vue"
+	],
+	"exclude": [
+		"**/node_modules",
+		"**/dist"
+	]
 }

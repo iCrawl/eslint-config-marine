@@ -25,7 +25,6 @@ module.exports = {
 		'@typescript-eslint/no-non-null-assertion': 0,
 		'@typescript-eslint/no-useless-constructor': 'error',
 		'@typescript-eslint/no-var-requires': 'error',
-		'@typescript-eslint/prefer-interface': 'error',
 		'@typescript-eslint/promise-function-async': 0,
 		'@typescript-eslint/restrict-plus-operands': 'error',
 		'@typescript-eslint/type-annotation-spacing': 'error',
