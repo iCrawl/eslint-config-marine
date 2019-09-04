@@ -35,6 +35,7 @@ module.exports = {
 		'@typescript-eslint/ban-ts-ignore': 0,
 		'semi': 0,
 		'@typescript-eslint/semi': 'error',
+		'no-dupe-class-members': 0,
 		'promise/catch-or-return': 'error',
 		'promise/no-return-wrap': 'error',
 		'promise/param-names': 'error',
