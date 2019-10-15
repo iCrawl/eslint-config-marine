@@ -56,6 +56,7 @@ module.exports = {
 		'@typescript-eslint/type-annotation-spacing': 'error',
 		'@typescript-eslint/unified-signatures': 'error',
 		'no-dupe-class-members': 0,
+		'no-undef': 0,
 		'promise/catch-or-return': 'error',
 		'promise/no-return-wrap': 'error',
 		'promise/param-names': 'error',
