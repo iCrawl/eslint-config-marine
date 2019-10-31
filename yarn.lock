@@ -236,10 +236,10 @@ escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-config-aqua@^7.1.0:
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-aqua/-/eslint-config-aqua-7.1.0.tgz#8f0e393e8b4e13077bfc76271066564e663ab578"
-  integrity sha512-OFpESTQGByAZEct4Sz5Vn9MqnqXH+0/crLJrlLk2jnIuicC/eo1mpOszJ6LViMulF6rA/Cr771I5PFWdLsjCRQ==
+eslint-config-aqua@^7.1.1:
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/eslint-config-aqua/-/eslint-config-aqua-7.1.1.tgz#7bb7bdb1257b25e1b8629ac8fb087c2517a3c786"
+  integrity sha512-f3TucOlC4lkIAahv93B6+SK0Tobm12rVptdmXwPXn0jkzEk++LMF8IEHTy/eKUSDnBOwn+em1GhbiZ0D6Ml3rQ==
 
 eslint-config-prettier@^6.5.0:
   version "6.5.0"

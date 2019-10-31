@@ -30,7 +30,7 @@
 	],
 	"homepage": "https://github.com/iCrawl/eslint-config-marine#readme",
 	"dependencies": {
-		"eslint-config-aqua": "^7.1.0",
+		"eslint-config-aqua": "^7.1.1",
 		"eslint-plugin-promise": "^4.2.1"
 	},
 	"devDependencies": {
