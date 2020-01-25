@@ -1,5 +1,5 @@
 module.exports = {
-	extends: ['aqua', 'plugin:@typescript-eslint/recommended', 'plugin:promise/recommended'],
+	extends: ['aqua', 'plugin:@typescript-eslint/recommended'],
 	parserOptions: {
 		project: './tsconfig.json',
 	},
@@ -57,13 +57,5 @@ module.exports = {
 		'@typescript-eslint/unified-signatures': 2,
 		'no-dupe-class-members': 0,
 		'no-undef': 0,
-		'promise/catch-or-return': 2,
-		'promise/no-return-wrap': 2,
-		'promise/param-names': 2,
-		'promise/always-return': 2,
-		'promise/no-nesting': 2,
-		'promise/no-new-statics': 2,
-		'promise/prefer-await-to-then': 2,
-		'promise/prefer-await-to-callbacks': 2,
 	},
 };

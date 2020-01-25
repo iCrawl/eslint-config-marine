@@ -6,9 +6,7 @@
 	"author": "iCrawl <icrawltogo@gmail.com>",
 	"license": "MIT",
 	"scripts": {
-		"prebuild": "yarn lint",
-		"build": "gulp",
-		"lint": "eslint ."
+		"lint": "eslint *.js"
 	},
 	"repository": {
 		"type": "git",
@@ -30,19 +28,18 @@
 	],
 	"homepage": "https://github.com/iCrawl/eslint-config-marine#readme",
 	"dependencies": {
-		"eslint-config-aqua": "^7.1.2",
-		"eslint-plugin-promise": "^4.2.1"
+		"eslint-config-aqua": "^7.2.1"
 	},
 	"devDependencies": {
-		"@types/node": "^13.1.0",
-		"@typescript-eslint/eslint-plugin": "^2.6.0",
-		"@typescript-eslint/parser": "^2.6.0",
-		"eslint": "^6.6.0",
-		"eslint-config-prettier": "^6.5.0",
-		"eslint-plugin-prettier": "^3.1.1",
-		"eslint-plugin-vue": "^5.2.3",
-		"prettier": "^1.18.2",
-		"typescript": "^3.6.4"
+		"@types/node": "^13.5.0",
+		"@typescript-eslint/eslint-plugin": "^2.17.0",
+		"@typescript-eslint/parser": "^2.17.0",
+		"eslint": "^6.8.0",
+		"eslint-config-prettier": "^6.9.0",
+		"eslint-plugin-prettier": "^3.1.2",
+		"eslint-plugin-vue": "^6.1.2",
+		"prettier": "^1.19.1",
+		"typescript": "^3.7.5"
 	},
 	"eslintConfig": {
 		"extends": "./prettier/node.js"
