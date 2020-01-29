@@ -46,5 +46,5 @@
 	},
 	"renovate": {
 		"extends": ["teal"]
-	},
+	}
 }
