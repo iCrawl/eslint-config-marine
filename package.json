@@ -43,5 +43,8 @@
 	},
 	"eslintConfig": {
 		"extends": "./prettier/node.js"
-	}
+	},
+	"renovate": {
+		"extends": ["teal"]
+	},
 }
