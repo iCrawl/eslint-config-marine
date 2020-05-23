@@ -86,5 +86,7 @@ module.exports = {
 		'@typescript-eslint/explicit-module-boundary-types': 0,
 		'@typescript-eslint/no-unsafe-assignment': 0,
 		'@typescript-eslint/no-unsafe-member-access': 0,
+		'@typescript-eslint/no-unsafe-call': 0,
+		'@typescript-eslint/no-unsafe-return': 0,
 	},
 };
