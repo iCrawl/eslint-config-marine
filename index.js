@@ -81,5 +81,10 @@ module.exports = {
 
 		'no-use-before-define': 0,
 		'no-undef': 0,
+
+		'@typescript-eslint/unbound-method': 0,
+		'@typescript-eslint/explicit-module-boundary-types': 0,
+		'@typescript-eslint/no-unsafe-assignment': 0,
+		'@typescript-eslint/no-unsafe-member-access': 0,
 	},
 };
