@@ -1,7 +1,6 @@
 module.exports = {
 	extends: [
 		'aqua',
-		'eslint-recommended',
 		'plugin:@typescript-eslint/recommended',
 		'plugin:@typescript-eslint/recommended-requiring-type-checking',
 	],
