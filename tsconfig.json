@@ -4,14 +4,7 @@
 		"module": "commonjs",
 		"moduleResolution": "node",
 		"target": "es2019",
-		"lib": [
-			"esnext",
-			"esnext.array",
-			"esnext.asynciterable",
-			"esnext.intl",
-			"esnext.symbol",
-			"esnext.bigint"
-		],
+		"lib": ["ESNext"],
 		"declaration": false,
 		"sourceMap": false,
 		"removeComments": true,
@@ -23,16 +16,6 @@
 		"allowJs": true,
 		"checkJs": true
 	},
-	"include": [
-		"src/**/*.ts",
-		"src/**/*.js",
-		"src/**/*.vue",
-		"**/*.ts",
-		"**/*.js",
-		"**/*.vue"
-	],
-	"exclude": [
-		"**/node_modules",
-		"**/dist"
-	]
+	"include": ["src/**/*.ts", "src/**/*.js", "src/**/*.vue", "**/*.ts", "**/*.js", "**/*.vue"],
+	"exclude": ["**/node_modules", "**/dist"]
 }

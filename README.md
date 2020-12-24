@@ -1,4 +1,5 @@
 # eslint-config-marine
+
 > Typescript ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html)
 
 <div align="center">
@@ -15,7 +16,13 @@
 ## Install
 
 ```bash
-yarn add -D eslint-config-marine
+npm i -D eslint-config-marine
+```
+
+additionally (if not already in place), you will need `@typescript-eslint/parser` and `@typescript-eslint/eslint-plugin`
+
+```bash
+npm i -D @typescript-eslint/parser @typescript-eslint/eslint-plugin
 ```
 
 ## Usage
@@ -58,6 +65,82 @@ or use the platform specific configs for Node.js:
 ```json
 {
 	"extends": "marine/node"
+}
+```
+
+or React:
+
+```json
+{
+	"extends": "aqua/react"
+}
+```
+
+or any other JSX:
+
+```json
+{
+	"extends": "aqua/jsx"
+}
+```
+
+or Vue.js:
+
+```json
+{
+	"extends": "aqua/vue"
+}
+```
+
+Using the Vue extended config will require you to additionally install `eslint-plugin-vue` and `babel-eslint`
+
+```bash
+npm i -D babel-eslint eslint-plugin-vue
+```
+
+# Prettier usage
+
+If you want to apply your own `.prettierrc` rules with support for disabling the correct rules, just add `/prettier` before the target name.
+
+Also make sure you install `prettier`, `eslint-plugin-prettier` and `eslint-config-prettier` for this to work.
+
+```bash
+npm i -D prettier eslint-plugin-prettier eslint-config-prettier
+```
+
+```json
+{
+	"extends": "aqua/prettier"
+}
+```
+
+```json
+{
+	"extends": "aqua/prettier/node"
+}
+```
+
+or React:
+
+```json
+{
+	"extends": "aqua/prettier/react"
+}
+```
+
+or any other JSX:
+
+```json
+{
+	"extends": "aqua/prettier/jsx"
+}
+```
+
+or Vue.js:
+
+```json
+{
+	"extends": "aqua/prettier/vue"
 }
 ```
 

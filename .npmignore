@@ -1,8 +1,9 @@
 # Packages
-node_modules/
+node_modules
+**/node_modules
 
 # Log files
-logs/
+logs
 *.log
 npm-debug.log*
 
@@ -13,5 +14,10 @@ pids
 
 # Miscellaneous
 .tmp/
+.github/
 .gitattributes
 .gitignore
+.eslintrc.json
+.prettierc.json
+.npmignore
+.npmrc

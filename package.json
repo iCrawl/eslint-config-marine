@@ -28,25 +28,17 @@
 	],
 	"homepage": "https://github.com/iCrawl/eslint-config-marine#readme",
 	"dependencies": {
-		"eslint-config-aqua": "^7.3.0"
+		"eslint-config-aqua": "^8.0.0"
 	},
 	"devDependencies": {
-		"@types/node": "^14.6.0",
-		"@typescript-eslint/eslint-plugin": "^4.0.0",
-		"@typescript-eslint/parser": "^3.9.1",
-		"eslint": "^7.7.0",
-		"eslint-config-prettier": "^7.0.0",
-		"eslint-plugin-prettier": "^3.1.4",
-		"eslint-plugin-vue": "^7.0.0",
-		"prettier": "^2.0.5",
-		"typescript": "^4.0.2"
-	},
-	"eslintConfig": {
-		"extends": "./prettier/node.js"
-	},
-	"renovate": {
-		"extends": [
-			"teal"
-		]
+		"@types/node": "^14.14.16",
+		"@typescript-eslint/eslint-plugin": "^4.11.0",
+		"@typescript-eslint/parser": "^4.11.0",
+		"eslint": "^7.16.0",
+		"eslint-config-prettier": "^7.1.0",
+		"eslint-plugin-prettier": "^3.3.0",
+		"eslint-plugin-vue": "^7.3.0",
+		"prettier": "^2.2.1",
+		"typescript": "^4.1.3"
 	}
 }
