@@ -1,3 +1,3 @@
 module.exports = {
-	extends: ['aqua/prettier/prettier', 'prettier/@typescript-eslint'],
+	extends: ['aqua/prettier', 'prettier/@typescript-eslint'],
 };
