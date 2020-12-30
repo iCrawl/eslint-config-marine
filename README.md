@@ -72,7 +72,7 @@ or React:
 
 ```json
 {
-	"extends": "aqua/react"
+	"extends": "marine/react"
 }
 ```
 
@@ -80,7 +80,7 @@ or any other JSX:
 
 ```json
 {
-	"extends": "aqua/jsx"
+	"extends": "marine/jsx"
 }
 ```
 
@@ -88,7 +88,7 @@ or Vue.js:
 
 ```json
 {
-	"extends": "aqua/vue"
+	"extends": "marine/vue"
 }
 ```
 
@@ -96,6 +96,20 @@ Using the Vue extended config will require you to additionally install `eslint-p
 
 ```bash
 npm i -D babel-eslint eslint-plugin-vue
+```
+
+or Angular:
+
+```json
+{
+	"extends": "marine/angular"
+}
+```
+
+Using the Angular extended config will require you to additionally install `@angular-eslint/builder`, `@angular-eslint/eslint-plugin`, `@angular-eslint/eslint-plugin-template`, `@angular-eslint/template-parser`, `@typescript-eslint/tslint` and `codelyzer`
+
+```bash
+npm i -D @typescript-eslint/tslint codelyzer @angular-eslint/builder @angular-eslint/eslint-plugin @angular-eslint/eslint-plugin-template @angular-eslint/template-parser
 ```
 
 # Prettier usage
@@ -110,13 +124,13 @@ npm i -D prettier eslint-plugin-prettier eslint-config-prettier
 
 ```json
 {
-	"extends": "aqua/prettier"
+	"extends": "marine/prettier"
 }
 ```
 
 ```json
 {
-	"extends": "aqua/prettier/node"
+	"extends": "marine/prettier/node"
 }
 ```
 
@@ -124,7 +138,7 @@ or React:
 
 ```json
 {
-	"extends": "aqua/prettier/react"
+	"extends": "marine/prettier/react"
 }
 ```
 
@@ -132,7 +146,7 @@ or any other JSX:
 
 ```json
 {
-	"extends": "aqua/prettier/jsx"
+	"extends": "marine/prettier/jsx"
 }
 ```
 
@@ -140,7 +154,15 @@ or Vue.js:
 
 ```json
 {
-	"extends": "aqua/prettier/vue"
+	"extends": "marine/prettier/vue"
+}
+```
+
+or Angular:
+
+```json
+{
+	"extends": "marine/prettier/angular"
 }
 ```
 
