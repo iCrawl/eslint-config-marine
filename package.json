@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-marine",
-	"version": "8.2.0",
+	"version": "8.3.0",
 	"description": "Typescript ESLint shareable config",
 	"main": "index.js",
 	"author": "iCrawl <icrawltogo@gmail.com>",
@@ -28,22 +28,21 @@
 	],
 	"homepage": "https://github.com/iCrawl/eslint-config-marine#readme",
 	"dependencies": {
-		"eslint-config-aqua": "^8.1.0"
+		"eslint-config-aqua": "^8.1.2"
 	},
 	"devDependencies": {
-		"@angular-eslint/builder": "^1.0.0",
-		"@angular-eslint/eslint-plugin": "^1.0.0",
-		"@angular-eslint/eslint-plugin-template": "^1.0.0",
-		"@angular-eslint/template-parser": "^1.0.0",
-		"@types/node": "^14.14.16",
-		"@typescript-eslint/eslint-plugin": "^4.11.1",
-		"@typescript-eslint/parser": "^4.11.1",
-		"codelyzer": "^6.0.1",
-		"eslint": "^7.16.0",
-		"eslint-config-prettier": "^8.0.0",
-		"eslint-plugin-prettier": "^3.3.0",
-		"eslint-plugin-vue": "^7.4.0",
+		"@angular-eslint/builder": "^1.2.0",
+		"@angular-eslint/eslint-plugin": "^1.2.0",
+		"@angular-eslint/eslint-plugin-template": "^1.2.0",
+		"@angular-eslint/template-parser": "^1.2.0",
+		"@types/node": "^14.14.32",
+		"@typescript-eslint/eslint-plugin": "^4.16.1",
+		"@typescript-eslint/parser": "^4.16.1",
+		"eslint": "^7.21.0",
+		"eslint-config-prettier": "^8.1.0",
+		"eslint-plugin-prettier": "^3.3.1",
+		"eslint-plugin-vue": "^7.7.0",
 		"prettier": "^2.2.1",
-		"typescript": "^4.1.3"
+		"typescript": "^4.2.3"
 	}
 }
