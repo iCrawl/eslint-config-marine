@@ -106,10 +106,10 @@ or Angular:
 }
 ```
 
-Using the Angular extended config will require you to additionally install `@angular-eslint/builder`, `@angular-eslint/eslint-plugin`, `@angular-eslint/eslint-plugin-template`, `@angular-eslint/template-parser`, `@typescript-eslint/tslint` and `codelyzer`
+Using the Angular extended config will require you to additionally install `@angular-eslint/builder`, `@angular-eslint/eslint-plugin`, `@angular-eslint/eslint-plugin-template`, and `@angular-eslint/template-parser`
 
 ```bash
-npm i -D @typescript-eslint/tslint codelyzer @angular-eslint/builder @angular-eslint/eslint-plugin @angular-eslint/eslint-plugin-template @angular-eslint/template-parser
+npm i -D @angular-eslint/builder @angular-eslint/eslint-plugin @angular-eslint/eslint-plugin-template @angular-eslint/template-parser
 ```
 
 # Prettier usage
