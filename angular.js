@@ -5,7 +5,6 @@ module.exports = {
 	overrides: [
 		{
 			files: ['*.ts', '*.tsx'],
-			extends: ['plugin:@angular-eslint/recommended', 'plugin:@angular-eslint/template/process-inline-templates'],
 			rules: {
 				'@typescript-eslint/explicit-function-return-type': [
 					'error',
