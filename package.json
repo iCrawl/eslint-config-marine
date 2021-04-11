@@ -32,7 +32,7 @@
 	},
 	"devDependencies": {
 		"@angular-eslint/builder": "^1.2.0",
-		"@angular-eslint/eslint-plugin": "^1.2.0",
+		"@angular-eslint/eslint-plugin": "^2.1.0",
 		"@angular-eslint/eslint-plugin-template": "^1.2.0",
 		"@angular-eslint/template-parser": "^1.2.0",
 		"@types/node": "^14.14.32",
