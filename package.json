@@ -34,7 +34,7 @@
 		"@angular-eslint/builder": "^1.2.0",
 		"@angular-eslint/eslint-plugin": "^1.2.0",
 		"@angular-eslint/eslint-plugin-template": "^1.2.0",
-		"@angular-eslint/template-parser": "^1.2.0",
+		"@angular-eslint/template-parser": "^4.2.1",
 		"@types/node": "^15.0.1",
 		"@typescript-eslint/eslint-plugin": "^4.16.1",
 		"@typescript-eslint/parser": "^4.16.1",
