@@ -6,12 +6,7 @@ module.exports = {
 		parser: '@typescript-eslint/parser',
 		extraFileExtensions: ['.vue'],
 	},
-	overrides: [
-		{
-			files: ['*.ts', '*.tsx'],
-			rules: {
-				'@typescript-eslint/no-unused-vars': 0,
-			}
-		}
-	],
+	rules: {
+		'@typescript-eslint/no-unused-vars': 0,
+	},
 };

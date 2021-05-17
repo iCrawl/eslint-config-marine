@@ -16,5 +16,16 @@
 		"allowJs": true,
 		"checkJs": true,
 		"noUnusedLocals": true
-	}
+	},
+	"include": [
+		"**/*.ts",
+		"**/*.tsx",
+		"**/*.js",
+		"**/*.jsx",
+		"**/*.vue",
+		"**/*.test.ts",
+		"**/*.test.js",
+		"**/*.spec.ts",
+		"**/*.spec.js"
+	]
 }

@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-marine",
-	"version": "9.0.2",
+	"version": "9.0.3",
 	"description": "Typescript ESLint shareable config",
 	"main": "index.js",
 	"author": "iCrawl <icrawltogo@gmail.com>",
@@ -28,7 +28,7 @@
 	],
 	"homepage": "https://github.com/iCrawl/eslint-config-marine#readme",
 	"dependencies": {
-		"eslint-config-aqua": "^9.0.0"
+		"eslint-config-aqua": "^9.0.1"
 	},
 	"devDependencies": {
 		"@angular-eslint/builder": "^12.0.0",
