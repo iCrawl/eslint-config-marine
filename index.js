@@ -2,7 +2,7 @@ module.exports = {
 	extends: ['aqua'],
 	overrides: [
 		{
-			files: ['*.ts', '*.tsx', '*.vue'],
+			files: ['*.ts', '*.tsx'],
 			extends: [
 				'plugin:@typescript-eslint/recommended',
 				'plugin:@typescript-eslint/recommended-requiring-type-checking',

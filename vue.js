@@ -8,7 +8,7 @@ module.exports = {
 	},
 	overrides: [
 		{
-			files: ['*.ts', '*.tsx', '*.vue'],
+			files: ['*.ts', '*.tsx'],
 			rules: {
 				'@typescript-eslint/no-unused-vars': 0,
 			}
