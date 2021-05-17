@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-marine",
-	"version": "9.0.4",
+	"version": "9.0.5",
 	"description": "Typescript ESLint shareable config",
 	"main": "index.js",
 	"author": "iCrawl <icrawltogo@gmail.com>",
