@@ -24,7 +24,7 @@ module.exports = {
 				'@typescript-eslint/interface-name-prefix': 0,
 				'@typescript-eslint/member-delimiter-style': 2,
 				'@typescript-eslint/member-ordering': 0,
-				'@typescript-eslint/naming-convention': 2,
+				'@typescript-eslint/naming-convention': 0,
 				'@typescript-eslint/no-base-to-string': 2,
 				'@typescript-eslint/no-dynamic-delete': 2,
 				'@typescript-eslint/no-empty-interface': 0,

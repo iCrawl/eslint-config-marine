@@ -14,8 +14,7 @@
 		"allowSyntheticDefaultImports": true,
 		"pretty": true,
 		"allowJs": true,
-		"checkJs": true
-	},
-	"include": ["src/**/*.ts", "src/**/*.js", "src/**/*.vue", "**/*.ts", "**/*.js", "**/*.vue"],
-	"exclude": ["**/node_modules", "**/dist"]
+		"checkJs": true,
+		"noUnusedLocals": true
+	}
 }

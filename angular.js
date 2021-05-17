@@ -5,6 +5,7 @@ module.exports = {
 	overrides: [
 		{
 			files: ['*.ts', '*.tsx'],
+			extends: ['plugin:@angular-eslint/recommended'],
 			rules: {
 				'@typescript-eslint/explicit-function-return-type': [
 					'error',
@@ -19,7 +20,7 @@ module.exports = {
 			},
 		},
 		{
-			files: ['*.component.html'],
+			files: ['*.html'],
 			extends: ['plugin:@angular-eslint/template/recommended'],
 			rules: {},
 		},
