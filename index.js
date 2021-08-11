@@ -58,6 +58,8 @@ module.exports = {
 		'@typescript-eslint/lines-between-class-members': [2, 'always', { exceptAfterSingleLine: true }],
 		'no-dupe-class-members': 0,
 		'@typescript-eslint/no-dupe-class-members': 2,
+		'no-duplicate-imports': 0,
+		'@typescript-eslint/no-duplicate-imports': [2, { includeExports: false }],
 		'no-extra-semi': 0,
 		'@typescript-eslint/no-extra-semi': 2,
 		'no-useless-constructor': 0,
