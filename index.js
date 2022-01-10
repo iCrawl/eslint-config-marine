@@ -49,7 +49,7 @@ module.exports = {
 		'@typescript-eslint/prefer-nullish-coalescing': 2,
 		'@typescript-eslint/prefer-optional-chain': 2,
 		'@typescript-eslint/prefer-readonly': 2,
-		'@typescript-eslint/prefer-readonly-parameter-types': 2,
+		'@typescript-eslint/prefer-readonly-parameter-types': 0,
 		'@typescript-eslint/prefer-reduce-type-parameter': 2,
 		'@typescript-eslint/prefer-regexp-exec': 2,
 		'@typescript-eslint/prefer-return-this-type': 2,
