@@ -110,7 +110,7 @@ module.exports = {
 		'no-return-await': 0,
 		'@typescript-eslint/return-await': 1,
 		semi: 0,
-		'@typescript-eslint/semi': [2, { omitLastInOneLineBlock: false }],
+		'@typescript-eslint/semi': [2, 'always', { omitLastInOneLineBlock: false }],
 		'space-before-function-paren': 0,
 		'@typescript-eslint/space-before-function-paren': [2, { anonymous: 'never', named: 'never', asyncArrow: 'always' }],
 		'space-infix-ops': 0,
