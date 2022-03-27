@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-marine",
-	"version": "9.3.2",
+	"version": "9.4.0",
 	"description": "Typescript ESLint shareable config",
 	"main": "index.js",
 	"author": "iCrawl <icrawltogo@gmail.com>",
@@ -41,6 +41,8 @@
 		"@typescript-eslint/parser": "^5.9.0",
 		"eslint": "^8.6.0",
 		"eslint-config-prettier": "^8.3.0",
+		"eslint-import-resolver-typescript": "^2.7.0",
+		"eslint-plugin-import": "^2.25.4",
 		"eslint-plugin-react": "^7.28.0",
 		"eslint-plugin-react-hooks": "^4.3.0",
 		"eslint-plugin-svelte3": "^3.3.0",
