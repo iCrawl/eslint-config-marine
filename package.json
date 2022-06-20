@@ -26,6 +26,9 @@
 		"eslint",
 		"validate"
 	],
+	"files": [
+		"**/*.js"
+	],
 	"homepage": "https://github.com/iCrawl/eslint-config-marine#readme",
 	"dependencies": {
 		"eslint-config-aqua": "^9.2.0"
@@ -43,6 +46,7 @@
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-import-resolver-typescript": "^2.7.0",
 		"eslint-plugin-import": "^2.25.4",
+		"eslint-plugin-prettier": "^4.0.0",
 		"eslint-plugin-react": "^7.29.4",
 		"eslint-plugin-react-hooks": "^4.3.0",
 		"eslint-plugin-svelte3": "^4.0.0",
